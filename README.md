@@ -24,10 +24,10 @@ EX: <code>&lt;div class="six columns offset-two"&gt;&lt;/div&gt;</code>
 
 The overall structure looks like this:
 <code><pre>&lt;div class="container"&gt;
-&lt;div class="row"&gt;
-&lt;div class="three columns&gt;&lt;/div&gt;
-&lt;div class="nine columns"&gt;&lt;/div&gt;
-&lt;/div&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="three columns&gt;&lt;/div&gt;
+    &lt;div class="nine columns"&gt;&lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;</pre></code>
 
 Column class names:<br>
