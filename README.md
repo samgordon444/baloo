@@ -12,10 +12,23 @@ To change the total width of the container, change the max-width style of .conta
 This total width value is calculated as: Outside gutters (10px) + inside gutters + columns. So if you want the width of your content to be 1200px, the max-width (which includes the two outside gutters) should be set at 1220px. To change the outside gutter, edit the padding of .container
 
 # Use
-Simply add class="_NUMBER_ columns" to an HTML element, named below.<br> 
-EX: &lt;div class="three columns"&gt;&lt;/div&gt;<br>
+Wrap the main content in a div with class="container"
+
+Each horizontal section (or row) of content should be wrapped in a div with class="row"
+
+Then simply add class="_NUMBER_ columns" to divs within row, using column names below.<br> 
+EX: &lt;div class="three columns"&gt;&lt;/div&gt;
+
 To offset columns, use the offset class names below. <br>
 EX: &lt;div class="six columns offset-two"&gt;&lt;/div&gt;
+
+The overall structure looks like this:<br>
+&lt;div class="container"&gt;<br>
+&lt;div class="row"&gt;<br>
+&lt;div class="three columns&gt;&lt;/div&gt;<br>
+&lt;div class="nine columns"&gt;&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;
 
 Column class names:<br>
 one column<br>
